@@ -6,7 +6,7 @@ const App = () => {
 const [selectedPage, setSelectedPage] = useState('home');
 const isAboveMediumScreens = useMediaQuery("(min-width:1060px)")
   return (
-    <div className='app bg-deep-blue'>
+    <div className=''>
         <Navbar />
     </div>
   )
